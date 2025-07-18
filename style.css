@@ -1,0 +1,247 @@
+html {
+    scroll-behavior: smooth;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpeg');
+    background-size: 110%;
+    
+}
+
+.main-tittle{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    text-shadow: white;
+}
+
+h2{
+    text-align: center;
+    text-decoration:underline;
+    margin: auto;
+    color: white;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b65b00;
+}
+
+.logo img{
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+header{
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.nav-list{
+    margin-right: 50px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 15px;
+    justify-content: left;
+    font-size: large;
+    color: white;
+}
+
+.nav-list a:hover{
+    text-decoration: underline;
+}
+
+.supermario img {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+.description {
+    padding-top: 100px;
+    color: white;
+}
+
+.description h2 :hover{
+    text-decoration: underline;
+}
+
+.description p{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+}
+
+.skills {
+    background-image: url(star.png);
+    background-size:150px;
+    background-repeat: no-repeat;
+    background-position: 100px 50px;
+    padding-top: 100px;
+}
+
+
+.skills a{
+    list-style: none;
+    display:flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    background-color:black;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.skills li{
+    display:flex;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.skills a :hover{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 5px black;
+}
+
+.skills li{
+    color: #0001FC;
+}
+
+.weapons{
+    padding-top: 100px;
+}
+
+.weapons a{
+    width: 110px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border-style:hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.weapons a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: translateY(0);
+    transition: 0.3 ease-in-out;
+}
+
+.weapons a:hover{
+    transform: translateY(-2px);
+    color: red;
+    box-shadow: 0 5px 5px black;
+}
+
+.weapons a:hover::before{
+    transform: translateY(-6px);
+}
+
+.weapons ol li{
+    font-size: large;
+}
+
+.weapons .ul-1{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    list-style: none;
+}
+
+.weapons .ul-2{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.weapons li{
+    color: #0001FC;
+}
+
+.funfacts{
+    margin-top: 70px;
+}
+
+.funfacts li{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+.description p{
+    font-size: large;
+}
+
+.funfacts li{
+    font-size: large;
+    list-style: none;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.funfacts li{
+    color: blue;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #b65b00;
+    text-align: center;
+    padding: 22px;
+    font-size: medium;
+    background-image:url(flower.png);
+    background-repeat:no-repeat;
+    background-size: 50px;
+    background-position-y:bottom;
+    background-position-x: 950px;
+    color: white;
+}
